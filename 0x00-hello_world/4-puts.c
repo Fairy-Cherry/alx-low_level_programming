@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 /*
- * main - a program that prints exactly
- * programming is like building a multilingual
- * puzzle
- * return 0
- */
+ * main - Entry point
+ * Return: Always 0 (success)
+*/
 
-char greetings[58] = {"programming is like building a multilingual puzzle"};
+int main(void)
 {
-	{
-	puts("%s", greetings);
-	}
+	puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 }
-
